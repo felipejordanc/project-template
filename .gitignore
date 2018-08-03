@@ -2,6 +2,9 @@
 /remote/
 /local/
 
+# Ignore .DS_Store files created by mac
+.DS_Store
+
 # Ignore python stuff
 # Created by https://www.gitignore.io/api/python
 
