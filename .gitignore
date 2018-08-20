@@ -1,6 +1,9 @@
 # Ignore remote and local folders
-/remote/
-/local/
+/remote
+/local
+
+# Ignore .DS_Store files created by mac
+.DS_Store
 
 # Ignore python stuff
 # Created by https://www.gitignore.io/api/python
@@ -122,7 +125,8 @@ venv.bak/
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
-[Ss]cripts
+# Ignore this folder, but not the one in the root directory!
+(/.*/)+[Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
 
