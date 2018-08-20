@@ -6,7 +6,7 @@ if os.path.exists('remote') or os.path.exists('local') or os.path.exists('script
 
 print('\n')
 
-print('This script will initialize a research project at {0}. It will create the following folders:\n'.format(os.getcwd()))
+print('This script will initialize a project at {0}. It will create the following folders:\n'.format(os.getcwd()))
 
 print("- A remote folder, which is a symbolic link to a folder where you store the data for this project, ussually located in your Dropbox or Google Drive. This folder will be ignored by git.\n")
 
